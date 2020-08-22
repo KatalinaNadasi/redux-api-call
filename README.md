@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Simple pedagogical project to show two ways of fetching datas from an api in react :
+- Using pur react
+- Using redux and redux-thunk to fetch datas and dispatch them to all components
+The background-color changes when we click on a button
+The other's background-color changes when we click on it
+
+We used this fancy api to have random colors when we click on the button : http://www.colr.org/json/color/random
+
+![Image of the website](./src/websiteScreenshot.png)
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,9 +1,9 @@
 let defaultState = {
-  color: "pink"
+  color: ""
 }
 
-const color=(state=defaultState, action)=> {
-  if(action.type === "CHANGE_COLOR") {
+const color=( state=defaultState, action)=> {
+  if( action.type === "CHANGE_COLOR" ) {
     return {
       ...state,
       color: action.color

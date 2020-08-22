@@ -6,7 +6,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers';
-import Box from './component/box';
+import BoxContainer from './component/BoxContainer';
 
 const store = createStore(
   reducers,
@@ -15,7 +15,7 @@ const store = createStore(
 
 function App() {
   return (
-    <Box color='cadetblue' />
+    <BoxContainer />
   );
 }
 
